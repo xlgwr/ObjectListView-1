@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>ObjectListView.Official</id>
-    <title>ObjectListView (Official)</title>
+    <id>ObjectListView.imasm</id>
+    <title>ObjectListView (imasmitja)</title>
     <version>2.9.1</version>
     <authors>Phillip Piper</authors>
     <owners>Phillip Piper</owners>
     <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
-    <projectUrl>http://objectlistview.sourceforge.net</projectUrl>
+    <projectUrl>https://github.com/imasm/ObjectListView</projectUrl>
     <iconUrl>http://objectlistview.sourceforge.net/cs/_static/index-icon.png</iconUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <summary>ObjectListView is a .NET ListView wired on caffeine, guarana and steroids.</summary>
@@ -16,6 +16,10 @@
     <releaseNotes>v2.9.1 Added CellRendererGetter to allow each cell to have a different renderer, plus Fixes a few small bugs. 
     v2.9 adds buttons to cells, fixed some formatting bugs, and completely rewrote the demo to be much easier to understand.</releaseNotes>
     <copyright>Copyright 2006-2016 Bright Ideas Software</copyright>
-    <tags>.Net WinForms Net20 Net40 ListView Controls</tags>
+    <tags>.Net WinForms Net40 ListView Controls</tags>
   </metadata>
+  <files>
+    <file src="bin\release\ObjectListView.dll" target="lib\net40\" />
+    <file src="bin\release\ObjectListView.xml" target="lib\net40\" />
+  </files>
 </package>
